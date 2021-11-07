@@ -1,0 +1,53 @@
+.home{
+    display: flex;
+    justify-content: space-around;
+    .home__text{
+        h1{
+            padding: 1.2vmax 0 0;
+            margin-top: 1.5vmax;
+            font-size: 3.4vmax;
+            color: #000;
+            font-weight: 600;
+            span{
+                color: #FFA07A;
+            };
+        }
+        h3{
+            padding: 0  0 1.2vmax ;
+            color: #000;
+            font-size: 1.8vmax;
+            font-weight: 600;
+        }
+        button{
+            margin-top: 3vmax;
+            margin-left: 1vmax;
+            padding: 1vmax 5vmax 1vmax;
+            background-color: #FFA07A;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.3vmax;
+            color: white;
+            cursor: pointer;
+            .shopNow__link{
+                text-decoration:none ;
+                color: white;
+                font-size: 1.3vmax;
+                font-weight: 700;
+            }
+        }
+    }
+    .home__discount{
+        background-color: rgba(180, 198, 238,0.2);
+        padding: 2vmax;
+        height: 4.5vmax;
+        border-radius: 20px;
+        h3{
+            font-size: 1.5vmax;
+            padding-top:0.8vmax;
+            font-weight: 600;
+            span{
+                color: #f85617;
+            }
+        }
+    }
+}
