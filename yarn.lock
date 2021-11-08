@@ -23,7 +23,7 @@
     "chalk" "^2.0.0"
     "js-tokens" "^4.0.0"
 
-"@babel/runtime@^7.5.5", "@babel/runtime@^7.8.7":
+"@babel/runtime@^7.5.5", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.7":
   "integrity" "sha512-Nht8L0O8YCktmsDV6FqFue7vQLRx3Hb0B37lS5y0jDRqRxlBG4wIJHnf9/bgSE2UyipKFA01YtS+npRdTWBUyw=="
   "resolved" "https://registry.npmjs.org/@babel/runtime/-/runtime-7.16.0.tgz"
   "version" "7.16.0"
@@ -1124,6 +1124,13 @@
   dependencies:
     "function-bind" "^1.1.1"
 
+"history@>=5":
+  "integrity" "sha512-zPuQgPacm2vH2xdORvGGz1wQMuHSIB56yNAy5FnLuwOwgSYyPKptJtcMm6Ev+hRGeS+GzhbmRacHzvlESbFwDg=="
+  "resolved" "https://registry.npmjs.org/history/-/history-5.1.0.tgz"
+  "version" "5.1.0"
+  dependencies:
+    "@babel/runtime" "^7.7.6"
+
 "hosted-git-info@^2.1.4":
   "integrity" "sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw=="
   "resolved" "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.9.tgz"
@@ -2103,7 +2110,7 @@
     "prop-types" "^15.7.2"
     "react-transition-group" "^4.4.1"
 
-"react-dom@^16.8.1 || ^17", "react-dom@>=16.6.0":
+"react-dom@^16.8.1 || ^17", "react-dom@>=16.6.0", "react-dom@>=16.8":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -2127,6 +2134,11 @@
     "react-fast-compare" "^3.1.1"
     "react-side-effect" "^2.1.0"
 
+"react-icons@^4.3.1":
+  "integrity" "sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ=="
+  "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.3.1.tgz"
+  "version" "4.3.1"
+
 "react-is@^16.8.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
@@ -2136,6 +2148,18 @@
   "integrity" "sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   "version" "17.0.2"
+
+"react-router-dom@^6.0.0-beta.8":
+  "integrity" "sha512-WyiIc6EakJDCo6rUmb7VjCtOpEvm8+4V8CiJdmFPud0lppeNf37TNhTnDQszDbP2y29wBUGb94BOFU2X93uILA=="
+  "resolved" "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.0.0-beta.8.tgz"
+  "version" "6.0.0-beta.8"
+  dependencies:
+    "react-router" "6.0.0-beta.8"
+
+"react-router@^6.0.0-beta.8", "react-router@6.0.0-beta.8":
+  "integrity" "sha512-pn3j01FA44yWP5gaHvz3CMVjFnmg5NS/BQ5IIalY7jw2yEKgr+OHB1gxTorakpiMaPOXXbfyUt3t4yZ4UBwE5Q=="
+  "resolved" "https://registry.npmjs.org/react-router/-/react-router-6.0.0-beta.8.tgz"
+  "version" "6.0.0-beta.8"
 
 "react-side-effect@^2.1.0":
   "integrity" "sha512-2FoTQzRNTncBVtnzxFOk2mCpcfxQpenBMbk5kSVBg5UcPqV9fRbgY2zhb7GTWWOlpFmAxhClBDlIq8Rsubz1yQ=="
@@ -2152,7 +2176,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@^16.2.0 || ^17", "react@^16.3.0 || ^17.0.0", "react@^16.8.1 || ^17", "react@>=16.3.0", "react@>=16.6.0", "react@17.0.2":
+"react@*", "react@^16.2.0 || ^17", "react@^16.3.0 || ^17.0.0", "react@^16.8.1 || ^17", "react@>=16.3.0", "react@>=16.6.0", "react@>=16.8", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
