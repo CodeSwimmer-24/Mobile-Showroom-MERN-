@@ -1,16 +1,10 @@
-import { Expo } from 'gsap/all';
-import { TweenMax } from 'gsap/gsap-core';
-import { useEffect } from 'react';
-import './App.css';
-import Home from './Home';
-import Navbar from './Navbar';
+import Header from "./components/Layout/Header.js"
 
 function App() {
   return (
-    <>
-    <Navbar />
-    <Home />
-  </>
+    <div>
+      <Header />
+    </div>
   );
 }
 
